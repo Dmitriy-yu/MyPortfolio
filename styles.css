@@ -1,0 +1,403 @@
+html{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size: 16 px;
+    font-weight:400;
+    color:#000;
+    background-color: #f0f0f0;
+    min-width:320 px;
+    width: 100%;
+   max-width: 100%;
+   overflow-x: hidden;
+}
+/*header*/
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(135, 26, 207);
+    font-weight:800 px ;
+    font-family: cursive;
+}
+.navbar-brand{/*цвет первой колонки Обо мне*/
+  color: rgb(135, 26, 207);  
+ font-weight: 1000;
+}
+.nav-link {/*цвет окошка связаться со мной*/
+color: rgb(135, 26, 207);  
+font-weight: 1000; 
+}
+.navbar-nav > .nav-item{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.aligncenter {/*убрал расстояние между формами*/
+   margin: 0%;
+}
+.dropdown-menu {/*цвет всплывающего окна*/
+    background-color:rgb(135, 26, 207);
+   
+}
+.dropdown-item{/*цвет всплывающего окна*/
+    color: yellow;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+.line{
+    border-top: #000;
+}
+.phone h2 {
+font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 20px;
+margin: 200px;
+position: relative;
+}
+.phone h2:before {
+    width: 200px;
+    height: 2px;
+    background: #085077;
+    display: block;
+    content: " ";
+    position: absolute;
+    left: 45%;
+    margin-left: -50px;
+    bottom: -30px;
+  }
+  form input.error{
+    border-color:red;
+  }
+  .indented input{
+ margin-left: 20px;
+  }
+  .biografia h3{
+   margin: 40px ;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 60px 60px;
+   font-size: 40px;
+  }
+  .biografia ul{
+  font-size: 30px;
+  display:inline-block;
+  }
+  .biografia{
+    width: 100%;
+    height: 100%;
+  }
+  .biografia p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .friend a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 70px;
+  }
+  .friend h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+  li.dropdown-menu {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .all_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 30px;
+  }
+  .my_vk{
+    padding: 20px;
+    color: blue;
+    href:()
+  }
+  .odnoklassniki{
+    color: orange;
+  }
+  .whatsApp{
+    color: green;
+    padding: 20px;
+  }
+  form button{
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    margin-left: 20px;
+   align-items: center;
+   cursor: pointer;
+   font-size: 30px;
+  }
+  form input{
+    padding: 10px;
+  }
+  form {
+    width:100%;
+     border-radius: 50px;
+     padding:15;
+     line-height: 18px;
+     font-size: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 20px;
+  }
+  #in_button:hover {
+    background-color: #fff;
+    color: #000;
+}
+body {
+overflow-y: hidden;
+}
+#curs1 img{
+  border-radius: 1%;
+  border-color: grey;
+}
+#curs1 p{
+position: relative;
+left: 50px;
+font-size: 20px;
+}
+#curs1 strong{
+  position: relative;
+ left: 30px;
+  font-size: 50px;
+}
+#curs2 img{
+  border-radius: 1%;
+  border-color: grey;
+  background-color: black;
+  bottom: -80;
+  right: 20px;
+}
+#curs2 p{
+position: relative;
+left: 100px;
+bottom: -30px;
+font-size: 20px;
+}
+#curs2 strong{
+  position: relative;
+ left: 100px;
+  font-size: 50px;
+}
+ #curs3 img{
+  border-radius: 1%;
+  border-color: grey;
+  background-color: black;
+  bottom: -20;
+}
+#curs3 ul{
+position: relative;
+left: 30px;
+bottom: -20px;
+font-size: 20px;
+margin: 0px 5px 150px 0px;
+}
+#curs3 strong{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  bottom: -50px;
+}
+.card{
+    display: block;
+    width: 1000px;
+    height: 600;
+    margin:0px 10px 10px 10px;
+    left: 150px;
+    background-color: #D4E6B3;
+    border: 50px solid #D4E6B3;
+    bottom: 40px;
+}
+.card-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-primary{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all_study{
+position: relative;
+bottom: 25px;
+}
+div.feedback{
+background-size: 100%;
+position: relative;
+height: 100%;
+width: 100%;
+padding: 120px;                                                   ;
+}
+.studi_online{
+border-radius: 50%;
+}
+ .foto_one{
+ position: relative;
+  background-size:10% auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 150px;
+  margin: 20px 20%;
+}
+.container_feedback{
+ position: relative;
+min-width: 100%;
+height: 100%;
+}
+.first_feedback{
+  position: absolute;
+  right: 0;
+  left: 70px;
+ top: 100px;
+ background-color: rgb(235, 230, 230);
+ height: 850px;
+ width: 300px;
+ border-radius: 20px;
+ box-shadow: 10px 5px 5px black;
+ opacity: 0.9;
+}
+h1.feedname_name1{
+  text-align: center;
+  vertical-align: middle;
+font-size: 150%;
+}
+.foto_one{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  right: 10px; 
+  background-color: rgba(0,0,255,0.5);
+}
+p.feeddback_write_1{
+font-size: 18px;
+margin: 17px;
+}
+.second_feedback{
+  position: absolute;
+  right: 0;
+  left: 520px;
+ top: 100px;
+ background-color: rgb(235, 230, 230);
+ height: 850px;
+ width: 300px;
+ border-radius: 20px;
+ box-shadow: 10px 5px 5px black;
+ opacity: 0.9;
+}
+.foto_two{
+  align-items: center;
+  justify-content:center;
+  right: 10px;
+  position: relative;
+  background-size:10% auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 147px;
+  margin: 20px 20%;
+  overflow: hidden;
+  background-size: contain;
+
+}
+.feedname_name2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150%;
+}
+.feeddback_write_2{
+  font-size: 18px;
+margin: 17px;
+}
+.third_feedback{
+  position: absolute;
+  right: 0;
+  left: 950px;
+ top: 100px;
+ background-color: rgb(235, 230, 230);
+ height: 850px;
+ width: 300px;
+ border-radius: 20px;
+ box-shadow: 10px 5px 5px black;
+ opacity: 0.9;
+}
+.foto_three{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  right: 10px;
+  width: 100%;
+  position: relative;
+  background-size:10% auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 150px;
+  margin: 20px 20%;
+}
+.feedname_name3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150%;
+}
+.feeddback_write_3{
+  font-size: 18px;
+margin: 17px;
+}
+#curs_s{
+  font-size: 300%;
+  font-style: italic;
+  color:white;
+  position: absolute;
+ z-index: 2;
+ left:45% ;
+ display: flex;
+ margin: auto;
+ align-items: center;
+ justify-content: center;
+ text-decoration: none;
+}
+#curs_s:hover{
+  transform: scale(2.65);
+color: rgb(92, 238, 92);
+cursor: pointer;
+}
+form input.error{
+  border-color: red;
+}
+#in_name{
+  margin: 20px;
+}
+#phone{
+  margin: 20px;
+}
